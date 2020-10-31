@@ -1,0 +1,463 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.wrap{
+	max-width: 1002px;
+	margin: 0 auto;
+	font-family: 微軟正黑體; 
+}
+
+.header{
+	background-color: #f6f6f6;
+	margin-top: 50px;
+}
+
+.header ul{
+	float: right;
+	margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.header ul li{
+	float: left;
+	margin-right: 10px;
+}
+
+.header li a{
+	text-decoration: none;
+}
+
+.facebook{
+	border-right: 2px solid #d5d3d4;
+	padding-right: 10px;
+}
+
+.facebook span{
+	color: #354485;
+} 
+
+.twitter span{
+	color: #008ef6;
+} 
+
+.clearfix{
+	clear: both;
+}
+
+.menu{
+	margin-top: 5px;
+}
+
+.menu h1{
+	float: left;
+}
+
+.menu .logo{
+	background: url(https://upload.cc/i1/2020/10/31/9LsDd5.png);
+	width: 100px;
+	height: 53px;
+	display: block;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-left: 20px;
+}
+
+.menu .top_menu{
+	float: right;
+	margin: 20px 0px; 
+}
+
+.menu .top_menu li{
+	float: left;
+	margin-right: 40px;
+}
+
+.menu .top_menu li a{
+	text-decoration: none;
+	color: #0ca080;
+	padding-bottom: 15px;
+}
+
+.menu .top_menu li a:hover{
+	border-bottom: 2px solid #0ca080;
+}
+
+.banner{
+	margin-top: 5px;
+	background-image: url(https://upload.cc/i1/2020/04/08/jC850r.png);
+	width: 100%;
+	height: 346px;
+}
+
+.banner-text{
+	padding-top: 105px;
+}
+
+.banner h2, .banner p{
+	color: #fff;
+	font-size: 32px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	padding-left: 20px;	
+	line-height: 40px;
+	background-color: rgba(0,0,0,0.15);
+}
+
+.banner h2{
+	padding-top: 30px;
+}
+
+.banner p{
+	padding-bottom: 30px;
+}
+
+.content .content_box{
+	margin: 30px 0px; 
+}
+
+.content .box_left,.content .box_mid,.content .box_right{
+	float: left;
+	box-shadow: 0px 2px 4px rgba(20%,20%,40%,0.3);
+	width: 300px;
+	margin-left: 23px;
+	text-align: center;
+}
+
+.box_right li{
+	float: none;
+	margin-left: 30px;
+	margin-top: 5px;
+	border: none;
+  	list-style-type: disc;
+}
+
+.box_right p, .box_right li{
+	text-align: left;
+	padding-top: 3px;
+	
+}
+
+.content h3{
+	padding-top: 20px;
+  	font-size: 20px;
+  	font-weight: bold;
+}
+
+.content .box_left p,.content .box_mid p{
+	padding: 10px 13px 20px 13px;
+  	line-height: 25px;
+  	text-align: left;
+}
+
+.box_right p{
+	margin-top: 15px;
+  	margin-bottom: 15px;
+  	margin-left: 8px;
+  	padding-left: 1em;
+}
+
+.box_right h3{
+  	margin-bottom: 10px;
+  	padding-top: 20px;
+}
+
+.box_left img{
+	padding-top: 20px;
+}
+
+.box_mid img,.box_right img{
+  	padding-top: 40px;
+}
+
+.box_mid h3{
+  	padding-top: 50px;
+}
+
+.box_right ul{
+	list-style-position: inside;
+	margin-bottom: 15px;
+}
+
+table{
+  	margin: 30px auto;
+  	width: 80%;
+  	letter-spacing: 0.8px;
+}
+
+.table{
+	margin-top: 60px;
+}
+
+.table p{
+	margin: 30px auto;
+  	font-size: 26px;
+  	font-weight: bold;
+  	text-align: center;
+}
+
+.price th,.price td{
+	border-top: 1px solid #000;
+  	border-bottom: 1px solid #000;
+  	border-color: #dddddd;
+}
+
+.price th{
+  	padding: 10px;
+  	background: #f6f6f6;
+  	text-align: left;
+  	font-weight: bold;
+}
+
+.price td{
+  	padding: 10px;
+}
+
+.price .note{
+	color: #00a67d;
+}
+
+.question{
+	background-image: url(https://upload.cc/i1/2020/04/15/TJ1GI9.png);
+	background-repeat: repeat-x;
+	margin-top: 60px;
+}
+
+.question p{
+	text-align: center;
+	font-size: 26px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.question .p_tittle{
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+.question textarea{
+	float: left;
+	width: 400px;
+	height: 200px;
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-bottom: 40px;
+}
+
+.question_aside{
+	float: left;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+.question_aside input,.question_aside label{
+	display: block;
+}
+
+.question_aside label{
+	color: #fff;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.question_aside input{
+	margin-bottom: 10px;
+	border-radius: 3px;
+	width: 450px;
+	height: 25px;
+	border: none;
+}
+
+.question_aside .send{
+	float: right;
+	width: 70px;
+	height: 35px; 
+	margin-top: 10px;
+	margin-bottom: 40px;
+	background-color: #00cc99;
+	color: #fff;
+	border: none; 
+	border-radius: 3px;
+	font-size: 14px;
+}
+
+.question_aside .send:hover{
+	cursor: pointer;
+}
+
+.footer img{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+}
+
+
+.footer .info{
+	float: right;
+	margin-top: 20px;
+}
+
+.info li{
+	margin-bottom: 10px;
+	margin-right: 15px;
+}
+
+.info a{
+	text-decoration: none;
+	color: #e12d80;
+}
+
+.info a:hover{
+	color: purple;
+}
+
+.info .tel{
+	color: #e12d80;
+}
+
+@media (max-width: 768px) {
+	.swiper-container{
+		width: 100%;
+	}
+	.banner{
+		background-image: url(https://upload.cc/i1/2020/08/24/qfBp1h.png);
+	}
+	.content_box{
+		display: flex;
+	}
+ 	.content .box_left,.content .box_mid,.content .box_right{
+		float: none;
+  		margin: 0 auto;
+		width: 30%;
+		margin-bottom: 3%;
+		margin-top: 5%;
+	}
+    .content .content_box h3{
+		font-size: 24px;
+	}
+	.question textarea {
+		width: 45%;
+	}
+	.question_aside input{
+		width: 300px;
+	}
+ } 
+
+
+@media (max-width: 375px) {
+	.menu .logo, .menu h1,.menu .top_menu,.menu .top_menu li{
+  		float: none;
+   		margin: 0 auto;
+  	}
+  	.menu .logo{
+  		margin-top: 40px;
+  	}
+  	.menu .top_menu{
+  		display: flex;
+ 		flex-wrap: wrap;
+  		text-align: center;
+  		margin-top: 20px;
+  		margin-bottom: 20px;
+  	}
+  	.menu .top_menu li{
+ 		margin-top: 2.5%;
+		width: 30%;
+  	}
+  	.menu .top_menu li a:hover{
+    	border: none;
+    	text-shadow: 1px 0 0 currentColor;;
+  	}
+  	.banner{
+		background-image: url(https://upload.cc/i1/2020/08/24/iWDe0w.png);
+	}
+	.banner-text{
+		padding-top: 95px;
+	}
+	.banner p{
+		font-size: 28px;
+	}
+	.content_box{
+		display: flex;
+		flex-direction: column;
+	}
+	.content .box_left,.content .box_mid,.content .box_right{
+		width: 80%;
+		margin-bottom: 3%;
+	}
+	.question textarea {
+		display: none;
+	}
+	.table{
+		display: none;
+	}
+	.question_aside{
+		padding-bottom: 70px;
+	}
+	.question_aside input{
+		width: 140%;
+	}
+	.question_aside .send{
+		float: none;
+		margin-top: 1em;
+		position: absolute;
+		left: 200px;
+	}
+	.footer{
+		display: flex;
+		flex-direction: column;
+	}
+	.footer img, .footer .info{
+		margin: 20px auto 10px auto;
+	}
+}
+
+
+
+
